@@ -1,0 +1,12 @@
+{
+    "name": "RCDS Hackathon 2025",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
+}
