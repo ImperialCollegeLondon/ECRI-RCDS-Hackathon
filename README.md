@@ -8,3 +8,7 @@ Annual Hackathon workshop organized by RCDS team at ECRI, Imperial
 - Naïve method is loop-based method to calculate the correlation of each column with the sale price.
 
 - Optimized method is (vectorized computational method?) with pandas corrwith() function.
+
+## Sustainability
+
+- Based on estimation of emissions for naïve method and optimized method, observe the sustainability of the code.
