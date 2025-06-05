@@ -21,9 +21,9 @@ To download the content of the files within the Codespace, open the Files tab on
 
 - Select the most important features associated with sale price from the house price data.
 
-- Naïve method is loop-based method to calculate the correlation of each column with the sale price.
+- Naïve method is loop-based method to calculate the correlation of each column with the sale price. The basic naïve method is based on `scipy.stats` which lacks of vectorization, It is generally less memory-efficient and needs more time to run. This method can be improved by `corrceof()` from `numpy`.
 
-- Optimized method is (vectorized computational method?) with pandas corrwith() function.
+- Optimized method is (vectorized computational method?) with `pandas` `corrwith()` function.
 
 ## Main task 3 & 4 - Sustainability
 
