@@ -1,5 +1,5 @@
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.5.2
-psutil==5.9.8
+psutil==6.0.0
 codecarbon==3.0.2
