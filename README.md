@@ -9,13 +9,6 @@ In order to follow this hackathon, you will need to have a [GitHub](https://gith
 
 There are several Jupyter notebooks (the files with the extension `.ipynb`) present in this  repository. You may review them in advance if you want to, but you aren't required to.
 
-## Opening a Codespace
-
-This hackathon is designed to run inside of a [Codespace](https://docs.github.com/en/codespaces/overview). A Codespace is a development environment hosted by GitHub directly from a repository. To use this, you will need to be signed into a GitHub account. To open the Codespace, click the **green `Code`** button at the top right of the repository. Make sure you're in the `Codespaces` tab and click the `Create New Codespace on Master` button. This will create a Codespace of your own. This will take a minute or so to initialise. You may be asked to reload the page. If so, do reload the page. If the Codespace seems to get stuck loading, reloading the page can often fix the problem.
-
-Once your Codespace has initialised, it will remain associated with your GitHub account for around a month, when it will expire. Your Codespace will be given a name like "fuzzy-barnacle" so you can identify it. To reopen it on a future occasion, click the **green `Code`** button again, then select the Codespace, click `Open`, then `Open in Browser`.
-
-To download the content of the files within the Codespace, open the Files tab on the left, select the files, right click and click `Download` button. Alternatively, if you're familiar with GitHub, you can open the source control tab on the left, you can commit and push changes. This will fork the repository with your changes. Either of these options will allow you to keep a copy of the course notes with your solutions to the exercises, etc.
 
 ## Main task 1 & 2 & 3- Feature selection
 
@@ -33,9 +26,11 @@ To download the content of the files within the Codespace, open the Files tab on
 
 ## Main task 6 - Configure codespace
 
-- Allow all users to have a unify environment to run code on codespaces.
+- Allow all users to have a unify environment to run code on codespaces. A Codespace is a development environment hosted by GitHub directly from a repository. 
 
-- requirements for the codespaces:
+- First, `fork` this repository to your own GitHub.
+
+- Requirements for the codespaces:
 
     - Install required Python libraries: pandas==2.2.2, numpy==1.26.4, scikit-learn==1.5.2, psutil==6.0.0, codecarbon==3.0.2
 
@@ -50,3 +45,11 @@ To download the content of the files within the Codespace, open the Files tab on
             - "extensions": Allow to activate extensions for the codespaces, for example, copilot.
 
             - "postCreateCommand": Allow to install required libraries for Python.
+
+- Test your GitHub codespace
+
+To use this, you will need to be signed into a GitHub account. To open the Codespace, click the **green `Code`** button at the top right of the repository. Make sure you're in the `Codespaces` tab and click the `Create New Codespace on Master` button. This will create a Codespace of your own. This will take a minute or so to initialise. You may be asked to reload the page. If so, do reload the page. If the Codespace seems to get stuck loading, reloading the page can often fix the problem.
+
+Once your Codespace has initialised, it will remain associated with your GitHub account for around a month, when it will expire. Your Codespace will be given a name like "fuzzy-barnacle" so you can identify it. To reopen it on a future occasion, click the **green `Code`** button again, then select the Codespace, click `Open`, then `Open in Browser`.
+
+To download the content of the files within the Codespace, open the Files tab on the left, select the files, right click and click `Download` button. Alternatively, if you're familiar with GitHub, you can open the source control tab on the left, you can commit and push changes. This will fork the repository with your changes. Either of these options will allow you to keep a copy of the course notes with your solutions to the exercises, etc.
