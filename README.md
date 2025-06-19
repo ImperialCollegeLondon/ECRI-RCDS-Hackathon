@@ -17,14 +17,36 @@ Once your Codespace has initialised, it will remain associated with your GitHub 
 
 To download the content of the files within the Codespace, open the Files tab on the left, select the files, right click and click `Download` button. Alternatively, if you're familiar with GitHub, you can open the source control tab on the left, you can commit and push changes. This will fork the repository with your changes. Either of these options will allow you to keep a copy of the course notes with your solutions to the exercises, etc.
 
-## Main task 1 & 2 - Feature selection
+## Main task 1 & 2 & 3- Feature selection
 
 - Select the most important features associated with sale price from the house price data.
 
 - Naïve method is loop-based method to calculate the correlation of each column with the sale price. The basic naïve method is based on `scipy.stats` which lacks of vectorization, It is generally less memory-efficient and needs more time to run. This method can be improved by `corrceof()` from `numpy`.
 
-- Optimized method is (vectorized computational method?) with `pandas` `corrwith()` function.
+- Based on the Naïve method, improve it by a parallel method, for example, with `Paralle()` and `delayed()` from `joblib`.
 
-## Main task 3 & 4 - Sustainability
+- Optimized method is (vectorized computational method) with `pandas` `corrwith()` function.
 
-- Based on estimation of emissions for naïve method and optimized method, observe the sustainability of the code.
+## Main task 4 & 5 - Sustainability
+
+- Based on estimation of emissions for both naïve method and optimized method, observe the sustainability of the code.
+
+## Main task 6 - Configure codespace
+
+- Allow all users to have a unify environment to run code on codespaces.
+
+- requirements for the codespaces:
+
+    - Install required Python libraries: pandas==2.2.2, numpy==1.26.4, scikit-learn==1.5.2, psutil==6.0.0, codecarbon==3.0.2
+
+    - Activate copilot as AI assistant.
+
+    - Need to create a JSON file `.devcontainer.json` or `devcontainer.json` in the sub-dir `.devcontainer`.
+
+        - Key tags include:
+
+            - "image": Choose the base container image to build the environment. In this case, please use "mcr.microsoft.com/devcontainers/python:3.10"
+
+            - "extensions": Allow to activate extensions for the codespaces, for example, copilot.
+
+            - "postCreateCommand": Allow to install required libraries for Python.
