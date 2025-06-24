@@ -5,6 +5,8 @@
 10 - 5
 2x speakers. 1 more general sustainability + data science, 1 more technical
 
+|time |activity|
+|-----|--------|
 |1000 |speaker general|
 |1100 |demos and exercises|
 |1300 |lunch break|
