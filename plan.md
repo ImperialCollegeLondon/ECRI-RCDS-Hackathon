@@ -6,53 +6,56 @@
 2x speakers. 1 more general sustainability + data science, 1 more technical
 
 10-1
-1h speaker general
-2h introductory coding
+|1000 |speaker general|
+|1100 |demos and exercises|
+|1300 |lunch break|
+|1400 |speaker technical|
+|1500 |hack!|
+|1630 |results and wrap up|
 
-1h lunch break
 
-2-5
-1h speaker technical
-1.5h hack
-.5h wrap up
+## Demos and Exercises section
 
-## Part 1
 
-1
-costs of research computing
+### Thinking about costs of research computing
 - programmer time/effort
 - processor time/energy
 - data centre water
 - …
 
-2.1
-how to estimate carbon footprint of the code
-demo: NetworkX / betweenness centrality on a random network?
-* look at Chris’s profiling materials?
-- is there a simple equation?
-- show more sophisticated tools (codecarbon etc?)
-exercise: Train MultiLayerPerceptron (neural network) for regression task -> 
-investigate how performance increases with number of layers / size of layers …investigate how carbon increases with number of layers / size of layers …
+### How to estimate carbon footprint of the code?
+Demo: NetworkX / betweenness centrality on a random network?
+- is there a simple equation to estimate carbon footprint?
+- use basic profiling tools to estimate (look at Chris's course?)
+- show more sophisticated tools to estimate (codecarbon etc?)
+Exercise: Train MultiLayerPerceptron (neural network) for regression task
+- investigate how regression performance increases with number of layers / size of layers
+- investigate how training cost (carbon) increases with number of layers / size of layers …
 
-2.2
-how to estimate carbon footprint of LLM use including copilot?
-- estimate using single query (ideally copilot?)
 
-3
-* which approaches / packages will help with memory usage / runtime?
+### Which approaches / packages will help us to reduce carbon?
 ?using vectorised computations in python
 ?sparse vs dense matrices trade off
 ?using parallelisation where appropriate
+?other things?
 
-4
-* introduce hackathon task
+### Introduction to hackathon task
 You are given some data about houses and their prices
-Your task is to 
-estimate energy use of development
-competition to determine most efficient code (train and test workflow)
+Your task is to build a workflow to train a regression model (of any kind) to estimate house price. 
+You can make use of any python packages you like.
+You are free to use GenAI as much as you like.
+You must include in your submission an estimate of your development carbon cost.
 
-5
-how to set up github codespace for reproducibility
+We will run your workflow on a new set of data and estimate total carbon cost for training on 10000 data points + 1000 predictions.
+The model will be considered useful if it achieves an r2 score >0.9 on our test dataset.
+The team with the lowest total carbon cost (development + training + predictions) will be declared the winners.
+
+#### how to estimate carbon footprint of LLM use including copilot?
+- estimate using single query (ideally copilot?)
+- how to apply this to get a rough estimate of own development cost.
+
+#### how to set up github codespace for reproducibility
+- give people the essential info to 
 
 
 
@@ -60,11 +63,5 @@ how to set up github codespace for reproducibility
 
 Hack…
 
-Competition / results / discussion (development cost?)
-
-
-
-
-
-
+Competition / results / discussion
 
