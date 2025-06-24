@@ -27,21 +27,21 @@
 ### How to estimate carbon footprint of the code?
 Demo: NetworkX / betweenness centrality on a random network?
 - is there a simple equation to estimate carbon footprint?
-- use basic profiling tools to estimate (look at Chris's course?)
+ - use basic profiling tools to estimate (look at Chris's course?)
 - show more sophisticated tools to estimate (codecarbon etc?)
-Exercise: Train MultiLayerPerceptron (neural network) for regression task
-- investigate how regression performance increases with number of layers / size of layers
-- investigate how training cost (carbon) increases with number of layers / size of layers …
+- Exercise: Train MultiLayerPerceptron (neural network) for regression task
+ - investigate how regression performance increases with number of layers / size of layers
+  - investigate how training cost (carbon) increases with number of layers / size of layers …
 
 
 ### Which approaches / packages will help us to reduce carbon?
-?using vectorised computations in python
-?sparse vs dense matrices trade off
-?using parallelisation where appropriate
-?other things?
+- ?using vectorised computations in python
+- ?sparse vs dense matrices trade off
+- ?using parallelisation where appropriate
+- ?other things?
 
 ### Introduction to hackathon task
-You are given some data about houses and their prices
+You are given some data about houses and their prices.
 Your task is to build a workflow to train a regression model (of any kind) to estimate house price. 
 You can make use of any python packages you like.
 You are free to use GenAI as much as you like.
