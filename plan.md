@@ -47,7 +47,7 @@ You can make use of any python packages you like.
 You are free to use GenAI as much as you like.
 You must include in your submission an estimate of your development carbon cost.
 
-We will run your workflow on a new set of data and estimate total carbon cost for training on 10000 data points + 1000 predictions.
+We will run your workflow *on a new set of training data* and estimate total carbon cost for training + 1000 predictions.
 The model will be considered useful if it achieves an r2 score >0.9 on our test dataset.
 The team with the lowest total carbon cost (development + training + predictions) will be declared the winners.
 
