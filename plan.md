@@ -56,7 +56,7 @@ The team with the lowest total carbon cost (development + training + predictions
 - how to apply this to get a rough estimate of own development cost.
 
 #### how to set up github codespace for reproducibility
-- give people the essential info to 
+- give people the essential info to make codespace and submit to competition.
 
 
 
