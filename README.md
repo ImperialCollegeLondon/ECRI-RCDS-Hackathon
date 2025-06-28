@@ -34,9 +34,9 @@ time |activity|
 
 - Emissions: 
 
-    -$$E_{total} = E_{codecarbon} * 1000 gCO_2e$$
-    
-    -$$E_{calibrated} = E_{total} * CPU_{percentage}$$
+    - $$E_{total} = E_{codecarbon} * 1000 gCO_2e$$
+
+    - $$E_{calibrated} = E_{total} * CPU_{percentage}$$
 
 - code
 
