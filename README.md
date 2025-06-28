@@ -17,10 +17,10 @@ time |activity|
 |1100 |demos and exercises: Sparse network and optimization; features selection|
 |1300 |lunch break|
 |1400 |speaker technical|
-|1500 |hack!: feature selection and regression to achieve |
-|     | - less runtime|
-|     | - less memory usage|
-|     | - less carbon emission |
+|1500 |hack!: feature selection and regression to achieve \ |
+|     | - less runtime \ |
+|     | - less memory usage \ |
+|     | - less carbon emission \ |
 |     | - and lower MSE|
 |1630 |results and wrap up|
 
