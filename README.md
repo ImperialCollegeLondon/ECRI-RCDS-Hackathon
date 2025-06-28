@@ -30,6 +30,19 @@ time |activity|
 
 - data: facebook snap data
 
+## Carbon footprint estimation
+
+- Emissions: 
+
+    -$$E_{total} = E_{codecarbon} * 1000 gCO_2e$$
+    
+    -$$E_{calibrated} = E_{total} * CPU_{percentage}$$
+
+- code
+
+- Generative AI usage:
+    - [Use this site to estimate](https://huggingface.co/spaces/genai-impact/ecologits-calculator)
+
 ## Main task 1 & 2 & 3- Feature selection
 
 - Select the most important features associated with sale price from the house price data.
