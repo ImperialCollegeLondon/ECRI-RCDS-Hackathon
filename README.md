@@ -30,6 +30,12 @@ time |activity|
 
 - data: facebook snap data
 
+- Find the top 20 most connected nodes with two different methods
+
+    - full matrix for the networking
+
+    - sparse matrix for the networking
+
 ## Carbon footprint estimation
 
 - Emissions: 
