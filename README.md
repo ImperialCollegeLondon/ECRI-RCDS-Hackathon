@@ -30,7 +30,7 @@ time |activity|
 
 - data: facebook snap data
 
-- Find the top 20 most connected nodes with two different methods
+- Find the top 20 most connected nodes with two different methods and compare the performance
 
     - full matrix for the networking
 
@@ -49,21 +49,23 @@ time |activity|
 - Generative AI usage:
     - [Use this site to estimate](https://huggingface.co/spaces/genai-impact/ecologits-calculator)
 
-## Main task 1 & 2 & 3- Feature selection
+## Preliminary practice with network analyis - task 1 & 2 
 
-- Select the most important features associated with sale price from the house price data.
+### Task 1
 
-- Naïve method is loop-based method to calculate the correlation of each column with the sale price. The basic naïve method is based on `scipy.stats` which lacks of vectorization, It is generally less memory-efficient and needs more time to run. This method can be improved by `corrceof()` from `numpy`.
+Find number of nodes, edges, density, the longest path and the shortest path of the given Facebook social network data.
 
-- Based on the Naïve method, improve it by a parallel method, for example, with `Paralle()` and `delayed()` from `joblib`.
+- Naïve method is loop-based BFS (breadth first search) method.
 
-- Optimized method is (vectorized computational method) with `pandas` `corrwith()` function.
+- Optimized methods are (vectorized computational method) with `networks` and `scipy.sparse` libraries.
 
-## Main task 4 & 5 - Sustainability
+### Task 2
 
-- Based on estimation of emissions for both naïve method and optimized method, observe the sustainability of the code.
+- Based on estimation of emissions for both naïve method and optimized methods, observe the sustainability of the code.
 
-## Main task 6 - Configure codespace
+## Task 3 & 4
+
+## Main task 5 - Configure codespace
 
 - Allow all users to have a unify environment to run code on codespaces. A Codespace is a development environment hosted by GitHub directly from a repository. 
 
