@@ -7,8 +7,8 @@
 
 |time |activity|
 |-----|--------|
-|1000 |speaker general|
-|1100 |demos and exercises|
+|1000 |demos and exercises|
+|1200 |speaker general|
 |1300 |lunch break|
 |1400 |speaker technical|
 |1500 |hack!|
