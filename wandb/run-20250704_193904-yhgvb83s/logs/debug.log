@@ -1,0 +1,33 @@
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_setup.py:_flush():80] Current SDK version is 0.21.0
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_setup.py:_flush():80] Configure stats pid to 91498
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_setup.py:_flush():80] Loading settings from /Users/jgao/.config/wandb/settings
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_setup.py:_flush():80] Loading settings from /Users/jgao/github/ECRI-RCDS-Hackathon/wandb/settings
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_setup.py:_flush():80] Loading settings from environment variables
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/jgao/github/ECRI-RCDS-Hackathon/wandb/run-20250704_193904-yhgvb83s/logs/debug.log
+2025-07-04 19:39:04,197 INFO    MainThread:91498 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/jgao/github/ECRI-RCDS-Hackathon/wandb/run-20250704_193904-yhgvb83s/logs/debug-internal.log
+2025-07-04 19:39:04,198 INFO    MainThread:91498 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x154cb52b0>
+2025-07-04 19:39:04,198 INFO    MainThread:91498 [wandb_init.py:init():830] calling init triggers
+2025-07-04 19:39:04,198 INFO    MainThread:91498 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-04 19:39:04,198 INFO    MainThread:91498 [wandb_init.py:init():871] starting backend
+2025-07-04 19:39:04,474 INFO    MainThread:91498 [wandb_init.py:init():874] sending inform_init request
+2025-07-04 19:39:04,488 INFO    MainThread:91498 [wandb_init.py:init():882] backend started and connected
+2025-07-04 19:39:04,490 INFO    MainThread:91498 [wandb_run.py:_label_probe_notebook():1304] probe notebook
+2025-07-04 19:39:04,503 INFO    MainThread:91498 [wandb_init.py:init():953] updated telemetry
+2025-07-04 19:39:04,522 INFO    MainThread:91498 [wandb_init.py:init():977] communicating run to backend with 90.0 second timeout
+2025-07-04 19:39:04,911 INFO    MainThread:91498 [wandb_init.py:init():1029] starting run threads in backend
+2025-07-04 19:39:05,047 INFO    MainThread:91498 [wandb_run.py:_console_start():2458] atexit reg
+2025-07-04 19:39:05,047 INFO    MainThread:91498 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-07-04 19:39:05,048 INFO    MainThread:91498 [wandb_run.py:_redirect():2375] Wrapping output streams.
+2025-07-04 19:39:05,048 INFO    MainThread:91498 [wandb_run.py:_redirect():2398] Redirects installed.
+2025-07-04 19:39:05,056 INFO    MainThread:91498 [wandb_init.py:init():1075] run started, returning control to user process
+2025-07-04 19:43:10,383 INFO    MainThread:91498 [wandb_run.py:_finish():2224] finishing run jl-liam-gao/network_analysis/yhgvb83s
+2025-07-04 19:43:11,157 INFO    MainThread:91498 [jupyter.py:save_history():480] not saving jupyter history
+2025-07-04 19:43:11,158 INFO    MainThread:91498 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-07-04 19:43:11,158 INFO    MainThread:91498 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-07-04 19:43:11,158 INFO    MainThread:91498 [wandb_run.py:_atexit_cleanup():2423] got exitcode: 0
+2025-07-04 19:43:11,158 INFO    MainThread:91498 [wandb_run.py:_restore():2405] restore
+2025-07-04 19:43:11,158 INFO    MainThread:91498 [wandb_run.py:_restore():2411] restore done
+2025-07-04 19:43:12,108 INFO    MainThread:91498 [wandb_run.py:_footer_history_summary_info():3903] rendering history
+2025-07-04 19:43:12,108 INFO    MainThread:91498 [wandb_run.py:_footer_history_summary_info():3935] rendering summary
+2025-07-04 19:43:12,110 INFO    MainThread:91498 [wandb_run.py:_footer_sync_info():3864] logging synced files

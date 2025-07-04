@@ -1,0 +1,49 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            mky1ssn5hdn0rb1szmycgw6yzsi0x935:
+                apple:
+                    ecpuCores: 6
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M4
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "4294967296"
+                codePath: 01-03-network_analysis_emissions_wandb.ipynb
+                codePathLocal: 01-03-network_analysis_emissions_wandb.ipynb
+                cpu_count: 10
+                cpu_count_logical: 10
+                disk:
+                    /:
+                        total: "994662584320"
+                        used: "624469807104"
+                email: jl.liam.gao@gmail.com
+                executable: /opt/homebrew/opt/python@3.13/bin/python3.13
+                git:
+                    commit: 48b073b07a15e0d65a0c93cbe625ce4e99f6183e
+                    remote: https://github.com/ImperialCollegeLondon/ECRI-RCDS-Hackathon.git
+                host: IC-DV24MPJ2Q6
+                memory:
+                    total: "17179869184"
+                os: macOS-15.5-arm64-arm-64bit-Mach-O
+                program: /Users/jgao/github/ECRI-RCDS-Hackathon/01-03-network_analysis_emissions_wandb.ipynb
+                python: CPython 3.13.5
+                root: /Users/jgao/github/ECRI-RCDS-Hackathon
+                startedAt: "2025-07-04T14:12:04.456849Z"
+                writerId: mky1ssn5hdn0rb1szmycgw6yzsi0x935
+        m: []
+        python_version: 3.13.5
+        t:
+            "3":
+                - 2
+                - 13
+            "4": 3.13.5
+            "5": 0.21.0
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.21.0
+            "13": darwin-arm64
