@@ -2,4 +2,6 @@ pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.5.2
 psutil==6.0.0
-codecarbon==3.0.2
+codecarbon==2.2.2
+networkx==3.5.0
+matplotlib==3.10.0
