@@ -14,7 +14,7 @@ There are several Jupyter notebooks (the files with the extension `.ipynb`) pres
 time |activity|
 |-----|--------|
 |1000 |demos and exercises: Sparse network and optimization; features selection|
-|1200 |general speaker|
+|1200 |general speaker (45mins)|
 |1300 |lunch break|
 |1400 |speaker technical|
 |1500 |hack!: feature selection and regression to achieve \ |
