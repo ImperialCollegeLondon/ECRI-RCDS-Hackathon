@@ -40,9 +40,11 @@ time |activity|
 
 - Emissions: 
 
-    - $$E_{total} = E_{codecarbon} * 1000 \text{  gCO}_2\text{e}$$
+    - C = Carbon Intensity of the electricity consumed for computation: quantified as g of CO₂ emitted per kilowatt-hour of electricity.
 
-    - $$E_{calibrated} = E_{total} * CPU_{percentage}$$
+    - E = Energy Consumed by the computational infrastructure: quantified as kilowatt-hours.
+
+    - CO2eq = C * E
 
 - code
 
