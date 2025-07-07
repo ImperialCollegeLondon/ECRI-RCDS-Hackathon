@@ -63,9 +63,13 @@ Find number of nodes, edges, density, the longest path and the shortest path of 
 
 - Based on estimation of emissions for both naïve method and optimized methods, observe the sustainability of the code.
 
-## Task 3 & 4
+### Task 3
 
-## Main task 5 - Configure codespace
+- Visualize the code performance on wandb dashboard.
+
+## Task 4 - Hack!
+
+## Task 5  - Configure codespace
 
 - Allow all users to have a unify environment to run code on codespaces. A Codespace is a development environment hosted by GitHub directly from a repository. 
 
@@ -73,7 +77,7 @@ Find number of nodes, edges, density, the longest path and the shortest path of 
 
 - Requirements for the codespaces:
 
-    - Install required Python libraries: pandas==2.2.2, numpy==1.26.4, scikit-learn==1.5.2, psutil==6.0.0, codecarbon==3.0.2
+    - Install required Python libraries: pandas==2.2.2, numpy==1.26.4, scikit-learn==1.5.2, psutil==6.0.0, codecarbon==3.0.2, wandb==0.21.0
 
     - Activate copilot as AI assistant.
 
