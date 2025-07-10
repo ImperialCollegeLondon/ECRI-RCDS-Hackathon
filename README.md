@@ -71,6 +71,27 @@ Find number of nodes, edges, density, the longest path and the shortest path of 
 
 ## Task 4 - Hack!
 
+- Measurement rubric:
+    - Combined_score = 0.5 * Accuracy + 0.15 * Training Time + 0.15 * Prediction Time + 0.05 * Memory Usage + 0.15 * Emission
+
+- Data:
+    - in John/data folder
+
+- Normalization method:
+    - 
+    ```
+    def normalize_metric(values, maximize=True):
+    if not values:
+        return [1.0] * len(values)
+    min_val = min(values)
+    max_val = max(values)
+    if max_val == min_val:
+        return [1.0] * len(values)
+    if maximize:
+        return [(x - min_val) / (max_val - min_val) for x in values]
+    return [(max_val - x) / (max_val - min_val) for x in values]
+    ```
+
 ## Task 5  - Configure codespace
 
 - Allow all users to have a unify environment to run code on codespaces. A Codespace is a development environment hosted by GitHub directly from a repository. 
