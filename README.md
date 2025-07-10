@@ -68,7 +68,7 @@ Find the number of nodes (vertices), the number of edges (undirected), density, 
 - Develop two different machine learning methods to train and test the given datasets.
 
 - Measurement rubric:
-    - Combined_score = 0.5 * Accuracy + 0.15 * Training Time + 0.15 * Prediction Time + 0.05 * Memory Usage + 0.15 * Emission
+    - Combined_score = 0.65 * Accuracy - 0.05 * Memory Usage - 0.3 * Emission
 
 - Data:
     - in John/data folder
