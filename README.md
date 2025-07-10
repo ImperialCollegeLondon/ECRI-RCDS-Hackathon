@@ -13,28 +13,22 @@ There are several Jupyter notebooks (the files with the extension `.ipynb`) pres
 
 time |activity|
 |-----|--------|
-|1000 |demos and exercises: Sparse network and optimization; find the longest and shortest paths on social network|
-|1200 |general speaker (45mins)|
+|1000 |demos and exercises: Sparse network and optimization; find features (nodes/vertices, edges, triangles etc.) on social network|
+|1200 |general speaker (45 mins incl. Q&A)|
 |1300 |lunch break|
-|1400 |speaker technical|
-|1500 |hack!: feature selection and regression to achieve \ |
+|1400 |speaker technical (1 hour incl. Q&A)|
+|1500 |hack!: develop machine learning methods to train and test on the datasets and achieve \ |
 |     | - less runtime \ |
 |     | - less memory usage \ |
 |     | - less carbon emission \ |
-|     | - and lower MSE|
+|     | - and higher accuracy |
 |1630 |results and wrap up|
 
 [Detailed Plan](plan.md)
 
 ## Sparse network
 
-- data: facebook snap data
-
-- Find the top 20 most connected nodes with two different methods and compare the performance
-
-    - full matrix for the networking
-
-    - sparse matrix for the networking
+- data: Facebook social network snap data
 
 ## Carbon footprint estimation
 
@@ -55,9 +49,9 @@ time |activity|
 
 ### Task 1
 
-Find number of nodes, edges, density, the longest path and the shortest path of the given Facebook social network data.
+Find the number of nodes (vertices), the number of edges (undirected), density, the number of triangles, and top 20 connected nodes of the given Facebook social network data.
 
-- Naïve method is loop-based BFS (breadth first search) method.
+- Naïve method is loop-based method.
 
 - Optimized methods are (vectorized computational method) with `networks` and `scipy.sparse` libraries.
 
@@ -70,6 +64,8 @@ Find number of nodes, edges, density, the longest path and the shortest path of 
 - Visualize the code performance on wandb dashboard.
 
 ## Task 4 - Hack!
+
+- Develop two different machine learning methods to train and test the given datasets.
 
 - Measurement rubric:
     - Combined_score = 0.5 * Accuracy + 0.15 * Training Time + 0.15 * Prediction Time + 0.05 * Memory Usage + 0.15 * Emission
