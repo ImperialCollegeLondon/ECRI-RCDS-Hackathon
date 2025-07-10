@@ -4,8 +4,8 @@
 
 | Metric | Mean | Standard Deviation |
 |--------|------|--------------------|
-| Memory Before (MB) | 188.49 | 6.47 |
-| Memory After (MB) | 188.57 | 6.37 |
-| Memory Increase (MB) | 0.07 | 0.24 |
-| Runtime (seconds) | 0.062643 | 0.005848 |
+| Memory Before (MB) | 141.15 | 1.78 |
+| Memory After (MB) | 141.16 | 1.76 |
+| Memory Increase (MB) | 0.02 | 0.34 |
+| Runtime (seconds) | 0.020539 | 0.001120 |
 | MSE | 1495907264.71 | 668916768.38 |
