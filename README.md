@@ -9,6 +9,18 @@ In order to follow this hackathon, you will need to have a [GitHub](https://gith
 
 There are several Jupyter notebooks (the files with the extension `.ipynb`) present in this  repository. You may review them in advance if you want to, but you aren't required to.
 
+## Intended Learning Outcomes (ILOs)
+
+    - Recall coding and algorithm concepts inclearning modulize coding, time complexity and visualization.
+
+    - Able to explain code performance and sustainability concepts.
+
+    - Apply W&B (wandb), psutil, codecarbon to track code performance and apply AI-assisted programming skills.
+
+    - Able to analyze the code performance.
+
+    - Able to develop / create optimized solutions, balancing environmental cost-effectiveness and efficiency.
+
 ## Plan
 
 time |activity|
@@ -49,9 +61,9 @@ time |activity|
 - Generative AI usage:
     - [Use this site to estimate](https://huggingface.co/spaces/genai-impact/ecologits-calculator)
 
-## Preliminary practice with network analyis - task 1 & 2 
+## Preliminary practice with network analyis - tasks I 
 
-### Task 1
+### Task I.1
 
 Find the number of nodes (vertices), the number of edges (undirected), density, the number of triangles, and top 20 connected nodes of the given Facebook social network data.
 
@@ -59,40 +71,15 @@ Find the number of nodes (vertices), the number of edges (undirected), density, 
 
 - Optimized methods are (vectorized computational method) with `networks` and `scipy.sparse` libraries.
 
-### Task 2
+### Task I.2
 
 - Based on estimation of emissions for both naïve method and optimized methods, observe the sustainability of the code.
 
-### Task 3
+### Task I.3
 
 - Visualize the code performance on wandb dashboard.
 
-## Task 4 - Hack!
-
-- Develop two different machine learning methods to train and test the given datasets.
-
-- Measurement rubric:
-    - Combined_score = 0.65 * Accuracy - 0.05 * Memory Usage - 0.3 * Emission
-
-- Data:
-    - in John/data folder
-
-- Normalization method:
-    - 
-    ```
-    def normalize_metric(values, maximize=True):
-    if not values:
-        return [1.0] * len(values)
-    min_val = min(values)
-    max_val = max(values)
-    if max_val == min_val:
-        return [1.0] * len(values)
-    if maximize:
-        return [(x - min_val) / (max_val - min_val) for x in values]
-    return [(max_val - x) / (max_val - min_val) for x in values]
-    ```
-
-## Task 5  - Configure codespace
+### Task I.4  - Configure codespace
 
 - Allow all users to have a unify environment to run code on codespaces. A Codespace is a development environment hosted by GitHub directly from a repository. 
 
@@ -121,3 +108,30 @@ To use this, you will need to be signed into a GitHub account. To open the Codes
 Once your Codespace has initialised, it will remain associated with your GitHub account for around a month, when it will expire. Your Codespace will be given a name like "fuzzy-barnacle" so you can identify it. To reopen it on a future occasion, click the **green `Code`** button again, then select the Codespace, click `Open`, then `Open in Browser`.
 
 To download the content of the files within the Codespace, open the Files tab on the left, select the files, right click and click `Download` button. Alternatively, if you're familiar with GitHub, you can open the source control tab on the left, you can commit and push changes. This will fork the repository with your changes. Either of these options will allow you to keep a copy of the course notes with your solutions to the exercises, etc.
+
+## Task II - Hack!
+
+- Develop two different machine learning methods to train and test the given datasets.
+
+- Measurement rubric:
+    - Combined_score = 0.65 * Accuracy - 0.05 * Memory Usage - 0.3 * Emission
+
+- Data:
+    - in John/data folder
+
+- Normalization method:
+    - 
+    ```
+    def normalize_metric(values, maximize=True):
+    if not values:
+        return [1.0] * len(values)
+    min_val = min(values)
+    max_val = max(values)
+    if max_val == min_val:
+        return [1.0] * len(values)
+    if maximize:
+        return [(x - min_val) / (max_val - min_val) for x in values]
+    return [(max_val - x) / (max_val - min_val) for x in values]
+    ```
+
+
