@@ -28,7 +28,7 @@ time |activity|
 |1000 |demos and exercises: Sparse network and optimization; find features (nodes/vertices, edges, triangles etc.) on social network|
 |1200 |general speaker (45 mins incl. Q&A)|
 |     | Dr. Yue (Nina) Chen (LSE) |
-|     | Provisional Title: Data for Sustainability    |
+|     | Title: Data in Sustainability Risks and Opportunities    |
 |1300 |lunch break|
 |1400 |speaker technical (1 hour incl. Q&A)|
 |     | Dr. Jie Zhang (KCL)|
