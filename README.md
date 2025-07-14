@@ -25,11 +25,12 @@ There are several Jupyter notebooks (the files with the extension `.ipynb`) pres
 
 time |activity|
 |-----|--------|
-|1000 |demos and exercises: Sparse network and optimization; find features (nodes/vertices, edges, triangles etc.) on social network|
+|1000 | welcome, coffee, tea and pastries |
+|1010 |demos and exercises: Sparse network and optimization; find features (nodes/vertices, edges, triangles etc.) on social network|
 |1200 |general speaker (45 mins incl. Q&A)|
 |     | Dr. Yue (Nina) Chen (LSE) |
 |     | Title: Data in Sustainability Risks and Opportunities    |
-|1300 |lunch break|
+|1300 |catered lunch|
 |1400 |speaker technical (1 hour incl. Q&A)|
 |     | Dr. Jie Zhang (KCL)|
 |     | Title: Benchmarking and Improving the Efficiency of LLM Generated Code|
