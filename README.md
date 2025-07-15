@@ -11,15 +11,15 @@ There are several Jupyter notebooks (the files with the extension `.ipynb`) pres
 
 ## Intended Learning Outcomes (ILOs)
 
-    - Recall coding and algorithm concepts inclearning modulize coding, time complexity and visualization.
+- Recall coding and algorithm concepts inclearning modulize coding, time complexity and visualization.
 
-    - Able to explain code performance and sustainability concepts.
+- Able to explain code performance and sustainability concepts.
 
-    - Apply W&B (wandb), psutil, codecarbon to track code performance and apply AI-assisted programming skills.
+- Apply W&B (wandb), psutil, codecarbon to track code performance and apply AI-assisted programming skills.
 
-    - Able to analyze the code performance.
+- Able to analyze the code performance.
 
-    - Able to develop / create optimized solutions, balancing environmental cost-effectiveness and efficiency.
+- Able to develop / create optimized solutions, balancing environmental cost-effectiveness and efficiency.
 
 ## Plan
 
@@ -70,7 +70,7 @@ Find the number of nodes (vertices), the number of edges (undirected), density, 
 
 - Naïve method is loop-based method.
 
-- Optimized methods are (vectorized computational method) with `networks` and `scipy.sparse` libraries.
+- Optimized methods are (vectorized computational method) with `networkx` and `scipy.sparse` libraries.
 
 ### Task I.2
 
