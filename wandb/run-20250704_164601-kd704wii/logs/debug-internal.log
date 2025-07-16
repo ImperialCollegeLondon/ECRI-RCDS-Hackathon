@@ -1,0 +1,13 @@
+{"time":"2025-07-04T16:46:02.196876+01:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-04T16:46:02.447455+01:00","level":"INFO","msg":"stream: created new stream","id":"kd704wii"}
+{"time":"2025-07-04T16:46:02.447499+01:00","level":"INFO","msg":"stream: started","id":"kd704wii"}
+{"time":"2025-07-04T16:46:02.447502+01:00","level":"INFO","msg":"handler: started","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:46:02.447505+01:00","level":"INFO","msg":"sender: started","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:46:02.447519+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:50:10.8292+01:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-kd704wii-Top20Nodes-4240120e43e9d50483c661e2f36bc6dc","runtime_seconds":1.2757990000000001}],"total_operations":1}}
+{"time":"2025-07-04T16:50:11.306802+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-04T16:50:11.501266+01:00","level":"INFO","msg":"stream: closing","id":"kd704wii"}
+{"time":"2025-07-04T16:50:11.501327+01:00","level":"INFO","msg":"handler: closed","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:50:11.501364+01:00","level":"INFO","msg":"sender: closed","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:50:11.501347+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"kd704wii"}
+{"time":"2025-07-04T16:50:11.502434+01:00","level":"INFO","msg":"stream: closed","id":"kd704wii"}

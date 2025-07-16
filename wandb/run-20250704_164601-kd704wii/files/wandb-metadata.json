@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.5",
+  "startedAt":  "2025-07-04T15:46:01.180595Z",
+  "program":  "/Users/jgao/github/ECRI-RCDS-Hackathon/01-03-network_analysis_emissions_wandb.ipynb",
+  "codePath":  "01-03-network_analysis_emissions_wandb.ipynb",
+  "codePathLocal":  "01-03-network_analysis_emissions_wandb.ipynb",
+  "git":  {
+    "remote":  "https://github.com/ImperialCollegeLondon/ECRI-RCDS-Hackathon.git",
+    "commit":  "48b073b07a15e0d65a0c93cbe625ce4e99f6183e"
+  },
+  "email":  "jl.liam.gao@gmail.com",
+  "root":  "/Users/jgao/github/ECRI-RCDS-Hackathon",
+  "host":  "IC-DV24MPJ2Q6",
+  "executable":  "/opt/homebrew/opt/python@3.13/bin/python3.13",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "994662584320",
+      "used":  "625687240704"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M4",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "5368709120",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "qz78b3d7d0hcf97h6jmr910m6ck249pl"
+}
