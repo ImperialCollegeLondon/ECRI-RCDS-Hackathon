@@ -1,5 +1,0 @@
-2025-07-04 18:47:33,846 INFO    MainThread:85358 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/jgao/github/ECRI-RCDS-Hackathon/wandb/run-20250704_184733-ft2ivzl1/logs/debug.log
-2025-07-04 18:47:33,846 INFO    MainThread:85358 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/jgao/github/ECRI-RCDS-Hackathon/wandb/run-20250704_184733-ft2ivzl1/logs/debug-internal.log
-2025-07-04 18:47:33,846 INFO    MainThread:85358 [wandb_init.py:init():830] calling init triggers
-2025-07-04 18:47:33,846 INFO    MainThread:85358 [wandb_init.py:init():835] wandb.init called with sweep_config: {}
-config: {'_wandb': {}}
