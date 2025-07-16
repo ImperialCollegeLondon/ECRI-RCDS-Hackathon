@@ -118,21 +118,21 @@ To download the content of the files within the Codespace, open the Files tab on
     - Combined_score = 0.65 * Accuracy - 0.05 * Memory Usage - 0.3 * Emission
 
 - Data:
-    - in John/data folder
+    - To be released on the Hackathon day
 
 - Normalization method:
     - 
     ```
     def normalize_metric(values, maximize=True):
-    if not values:
-        return [1.0] * len(values)
-    min_val = min(values)
-    max_val = max(values)
-    if max_val == min_val:
-        return [1.0] * len(values)
-    if maximize:
-        return [(x - min_val) / (max_val - min_val) for x in values]
-    return [(max_val - x) / (max_val - min_val) for x in values]
+    	if not values:
+        	return [1.0] * len(values)
+    	min_val = min(values)
+    	max_val = max(values)
+    	if max_val == min_val:
+        	return [1.0] * len(values)
+    	if maximize:
+        	return [(x - min_val) / (max_val - min_val) for x in values]
+    	return [(max_val - x) / (max_val - min_val) for x in values]
     ```
 
 
