@@ -1,11 +1,17 @@
 # ECRI-RCDS-Hackathon 2025
 Annual Hackathon workshop organized by RCDS team at ECRI, Imperial
 
+### RCDS Team
+
+You can find our [RCDS Team members here](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/meet-the-team/).
+
+We provide Research Computing and Data Science courses. You can find [more by clicking here](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/).
+
 ## Theme - Code Performance and Sustainability
 
 ## Intended Learning Outcomes (ILOs)
 
-- Recall coding and algorithm concepts inclearning modulize coding, time complexity and visualization.
+- Recall coding and algorithm concepts in terms of modulize coding, time complexity and visualization.
 
 - Able to explain code performance and sustainability concepts.
 
@@ -61,3 +67,7 @@ Once your Codespace has initialised, it will remain associated with your GitHub 
 To download the content of the files within the Codespace, open the Files tab on the left, select the files, right click and click `Download` button. Alternatively, if you're familiar with GitHub, you can open the source control tab on the left, you can commit and push changes. This will fork the repository with your changes. Either of these options will allow you to keep a copy of the course notes with your solutions to the exercises, etc.
 
 ---
+
+## Feedback
+
+It is appreciated if you would be able to spend a few minutes to fill out the [feedback form](https://imperial.eu.qualtrics.com/jfe/form/SV_e8LQQpQMuiDN7Ku).
