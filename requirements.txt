@@ -2,10 +2,10 @@ pandas==2.3.1
 numpy==2.2.6
 scikit-learn==1.7.0
 psutil==7.0.0
-codecarbon==3.0.4
+codecarbon==3.0.1
 networkx==3.4.2
 matplotlib==3.10.3
-tqdm==4.67.1
 wandb==0.21.0
-memory-profiler==0.61.0
 ipykernel==6.29.5
+nbformat==5.10.4
+openpyxl==3.1.5
