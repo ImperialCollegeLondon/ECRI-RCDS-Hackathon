@@ -1,4 +1,5 @@
 # ECRI-RCDS-Hackathon 2025
+![logo](images/Hackathon2025_logo.png)
 Annual Hackathon workshop organized by RCDS team at ECRI, Imperial
 
 ### RCDS Team
