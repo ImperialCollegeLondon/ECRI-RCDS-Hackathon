@@ -7,7 +7,7 @@ You can find our [RCDS Team members here](https://www.imperial.ac.uk/students/ac
 
 We provide Research Computing and Data Science courses. You can find [more by clicking here](https://www.imperial.ac.uk/students/academic-support/graduate-school/professional-development/doctoral-students/research-computing-data-science/courses/).
 
-## Theme - Code Performance and Sustainability
+## Theme - Coding and Sustainability
 
 ## Intended Learning Outcomes (ILOs)
 
@@ -41,6 +41,9 @@ time |activity|
 |     | - and higher accuracy |
 |1630 |results and wrap up|
 
+## Find you pair
+
+Pair coding (A.K.A pair programming) can positively improve effectiveness and efficiency. You can find more details in [https://doi.org/10.1016/j.infsof.2009.02.001](https://doi.org/10.1016/j.infsof.2009.02.001). We recommend you to find your pair during today's practice and prepare a team name.
 
 ## Carbon footprint estimation
 
